@@ -204,19 +204,20 @@ main > h2 {
 .outer-square {
     width: 200px;
     height: 200px;
-    background-color: var(--cor0);
+    background-color: var(--cor2);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 90px;
     margin: auto;
+    border-radius: 50%;
 }
 
 .inner-rectangle {
     border: #000;
     width: 90%;
-    background-color: var(--cor2);
+    background-color: var(--cor0);
     padding: 10px;
     text-align: center;
     
@@ -239,5 +240,5 @@ main > h2 {
 }
 
 .button-simulation:hover {
-    background-color: #ffffff;
+    background-color: var(--cor5);
 }
