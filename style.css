@@ -16,7 +16,7 @@
     padding: 0px;
 }
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao);
 }
 main P {
@@ -30,8 +30,8 @@ header {
     padding-top: 10px;
 }
 header > h1 {
-    color: white;
-    font-family: var(--fonte-padrao);
+    color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     padding-bottom: 20px;
     text-shadow: 2px 2px 0px black;
@@ -49,10 +49,10 @@ header > p {
 nav {
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 9px rgb(0, 0, 0);
+    box-shadow: 0px 7px 9px var(--cor1);
 }
 nav > a {
-    color: var(--cor1);
+    color: var(--cor0);
     padding: 10px;
     border-radius: 5px;
     text-decoration: 10px;
@@ -60,15 +60,15 @@ nav > a {
     transition-duration: 0.5s;
 }
 nav > a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5);
+    background-color: var(--cor1);
+    color: var(--cor1);
 }
 a.externo::after {
     content:'\1f517';
 }
 main {
-    min-width: 1309px;
-    max-width: 1000px;
+    min-width: 1100px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     background-color: rgb(255, 255, 255);
@@ -171,7 +171,7 @@ aside > ul {
 }
 aside > h3 {
 background-color: var(--cor4);
-color: white;
+color: var(--cor0);
 padding: 8px;
 margin: -10px -10px 0px -10px;
 border-radius: 10px 10px 0px 0px;
@@ -232,7 +232,7 @@ main > h2 {
 }
 
 .button-simulation {
-    background-color: var(--cor4);
+    background-color: var(--cor5);
     color: var(--cor1);
     text-align: center;
     padding: 10px;
@@ -240,5 +240,5 @@ main > h2 {
 }
 
 .button-simulation:hover {
-    background-color: var(--cor5);
+    background-color: var(--cor2);
 }
